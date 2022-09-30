@@ -1,6 +1,7 @@
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -194,6 +195,8 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  /* By Ashish Rai */
+  height: 70px;
 }
 
 svg {
@@ -606,6 +609,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  /* AshishRai */
+  margin-top: 105px;    
 }
 
 @media (min-width: 576px) {
@@ -4100,7 +4105,12 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
+  /* position: relative; */
+  position:fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  /* height: 20vh; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
