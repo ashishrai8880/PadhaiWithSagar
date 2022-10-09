@@ -3568,6 +3568,7 @@ input[type="button"].btn-block {
   min-height: 1.5rem;
   padding-left: 1.5rem;
   color-adjust: exact;
+  
 }
 
 .custom-control-inline {
@@ -9812,7 +9813,10 @@ h6,
 }
 
 .jumbotron.page-header {
-  background: linear-gradient(rgba(40, 120, 235, 0.9), rgba(40, 120, 235, 0.9)), url(../img/page-header.jpg), no-repeat center center;
+  /* background: linear-gradient(rgba(40, 120, 235, 0.9), rgba(40, 120, 235, 0.9)), url(../img/page-header.jpg), no-repeat center center; */
+  /* background: rgb(239	,179	,47 , 1), url(../img/page-header.jpg), no-repeat center center; */
+  background:  url(../img/page-header.jpg), no-repeat center center;
+  /* background-color: rgb(239	,179	,47)  ; */
   background-size: cover;
 }
 
